@@ -2,23 +2,31 @@
 
 ``` yaml title="config.yml" linenums="1"
 # The material that spawns under the player.
-material: GLOWSTONE (1)
+material: GLOWSTONE # (1)
 
 # Particles when the light block appears. Set 'none' to deactivate particles.
-appear-particle: SMOKE_NORMAL
+appear-particle: SMOKE_NORMAL # (2)
 
 # Particles when the light block disappears. Set 'none' to deactivate particles.
-disappear-particle: SMOKE_NORMAL
+disappear-particle: SMOKE_NORMAL # (3)
 
 # Lifetime of the light block in ticks (20 ticks = 1 second).
-block-lifetime: 60
+block-lifetime: 60 # (4)
 ```
+
+1. See Minecraft [Minecraft Block IDs](https://minecraft-ids.grahamedgecombe.com) for all Block IDs
+2. See [Valid Particles](/plugin/lightpath/particles/)
+3. See [Valid Particles](/plugin/lightpath/particles/)
+4. !!! info "Ticks"
+      20 Ticks = 1 second  
+      60 Ticks = 3 seconds  
+      600 Ticks = 30 seconds
 
 # Light Material
 
 The material that spawns under the player.
 
-```yml
+``` yaml
 material: stone
 ```
 
@@ -32,14 +40,14 @@ material: stone
 
 Particles when the light block appears. Set 'none' to deactivate particles.
 
-```yml
+``` yaml
 appear-particle: SMOKE_NORMAL
 ```
 
 ## Dissappear Particle 
 Particles when the light block disappears. Set 'none' to deactivate particles.
 
-```yml
+``` yaml
 disappear-particle: SMOKE_NORMAL
 ```
 
@@ -51,7 +59,7 @@ disappear-particle: SMOKE_NORMAL
 
 Lifetime of the light block in ticks (20 ticks = 1 second).
 
-```yml
+``` yaml
 block-lifetime: 600
 ```
 
