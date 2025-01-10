@@ -29,8 +29,6 @@ theme:
 copyright: Copyright &copy; 2025
 
 plugins:
-  - git-committers:
-      repository: MrChickenX/plugin
   - tags
   - search
 
