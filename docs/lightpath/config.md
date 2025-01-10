@@ -14,16 +14,6 @@ disappear-particle: SMOKE_NORMAL
 block-lifetime: 60
 ```
 
-1. See [https://minecraft-ids.grahamedgecombe.com/](Valid Block IDs) for more info.
-
-# asd
-
-``` yaml
-# (1)!
-```
-
-1.  Look ma, less line noise!
-
 # Light Material
 
 The material that spawns under the player.
