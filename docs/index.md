@@ -1,11 +1,11 @@
 # :material-lightbulb: Plugins
 
 <div class="plugin-buttons">
-    <a href="/lightpath/config/" class="md-button-big">
+    <a href="/plugin/lightpath/config/" class="md-button-big">
         <span class="icon material-icons">lightbulb</span>
         LightPath
     </a>
-    <a href="/welcomemessages/config/" class="md-button-big">
+    <a href="/plugin/welcomemessages/config/" class="md-button-big">
         <span class="icon material-icons">campaign</span>
         WelcomeMessages
     </a>
