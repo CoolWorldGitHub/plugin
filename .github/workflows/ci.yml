@@ -26,5 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - run: pip install git+https://github.com/timvink/mkdocs-git-committers-plugin.git
+      - run: pip install git+ssh://git@github.com/timvink/mkdocs-git-committers-plugin.git
       - run: mkdocs gh-deploy --force
