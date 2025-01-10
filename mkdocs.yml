@@ -1,11 +1,13 @@
 site_name: My Docs
 site_url: https://sitename.example
+repo_url: https://github.com/MrChickenX/plugin
 theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
   icon:
     logo: fontawesome/solid/code
+    repo: fontawesome/brands/git-alt
   favicon: fontawesome/solid/code
   features:
     - navigation.footer
@@ -27,6 +29,12 @@ theme:
       primary: blue
       accent: deep orange
 copyright: Copyright &copy; 2024
+
+plugins:
+  - git-committers:
+      repository: MrChickenX/plugin
+  - tags
+  - search
 
 markdown_extensions:
   - attr_list
