@@ -1,0 +1,44 @@
+.plugin-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.md-button-big {
+    display: flex;
+    flex-direction: column; /* Icon und Text untereinander */
+    align-items: center; /* Zentriert das Icon und den Text */
+    padding: 32px 64px;
+    color: white; /* Farbe des Texts */
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent; /* Transparenter Hintergrund */
+    border: 2px solid var(--md-primary-fg-color); /* Farbe der Border */
+    transition: all 0.3s ease;
+    width: calc(50% - 40px); /* Größe der Buttons auf 50% */
+    box-sizing: border-box;
+    white-space: nowrap; /* Verhindert Zeilenumbrüche */
+    overflow: hidden; /* Verhindert, dass der Text über den Button hinausgeht */
+    text-overflow: ellipsis; /* Zeigt "..." bei abgeschnittenem Text */
+}
+
+.md-button-big:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Leicht transparenter Hintergrund bei Hover */
+    color: var(--md-accent-fg-color); /* Farbe beim Hover */
+    border-color: var(--md-accent-fg-color); /* Border dunkler bei Hover */
+    transform: translateY(-4px);
+}
+
+.md-button-big .icon {
+    font-size: 48px; /* Größe der Icons */
+    margin-bottom: 10px; /* Abstand zwischen Icon und Text */
+}
+
+.md-typeset code:not(.focus-visible) {
+    font-size: 16px;
+}

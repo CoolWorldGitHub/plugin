@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# :material-lightbulb:Plugins
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div class="plugin-buttons">
+    <a href="/lightpath/config/" class="md-button-big">
+        <!-- LightPath Icon (Material Icons) -->
+        <span class="icon material-icons">lightbulb</span>
+        LightPath
+    </a>
+    <a href="/welcomemessages/config/" class="md-button-big">
+        <!-- LightPath Icon (Material Icons) -->
+        <span class="icon material-icons">campaign</span>
+        WelcomeMessages
+    </a>
+</div>
 
-## Commands
+# Links
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! success "My MC Server"
 
-## Project layout
+    Visit my Minecraft Server!
+    IP: `mc.planetmine.ch`
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! success "My own Webseite"
+
+    Visit also my own Webseite!
+    Webseite: [planetmine.ch](https://planetmine.ch)

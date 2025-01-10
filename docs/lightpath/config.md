@@ -1,3 +1,29 @@
+# Config
+
+``` yaml title="config.yml" linenums="1"
+# The material that spawns under the player.
+material: GLOWSTONE (1)
+
+# Particles when the light block appears. Set 'none' to deactivate particles.
+appear-particle: SMOKE_NORMAL
+
+# Particles when the light block disappears. Set 'none' to deactivate particles.
+disappear-particle: SMOKE_NORMAL
+
+# Lifetime of the light block in ticks (20 ticks = 1 second).
+block-lifetime: 60
+```
+
+1. See [https://minecraft-ids.grahamedgecombe.com/](Valid Block IDs) for more info.
+
+# asd
+
+``` yaml
+# (1)!
+```
+
+1.  Look ma, less line noise!
+
 # Light Material
 
 The material that spawns under the player.
