@@ -6,6 +6,14 @@
     margin: 40px 0;
 }
 
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
 .md-button-big {
     display: flex;
     flex-direction: column; /* Icon und Text untereinander */
@@ -41,4 +49,75 @@
 
 .md-typeset code:not(.focus-visible) {
     font-size: 16px;
+}
+
+/* Admonition */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 2px;
+  border-left-width: 2px;
+}
+
+/* Download */
+
+:root {
+  --md-admonition-icon--download: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e8eaed"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>');
+}
+
+.md-typeset .admonition.download,
+.md-typeset details.download {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .download > .admonition-title,
+.md-typeset .download > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .download > .admonition-title::before,
+.md-typeset .download > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--download);
+          mask-image: var(--md-admonition-icon--download);
+}
+
+/* ios */
+
+:root {
+  --md-admonition-icon--ios: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e8eaed"><path d="M160-600v-80h80v80h-80Zm0%20320v-240h80v240h-80Zm280%200h-80q-33%200-56.5-23.5T280-360v-240q0-33%2023.5-56.5T360-680h80q33%200%2056.5%2023.5T520-600v240q0%2033-23.5%2056.5T440-280Zm-80-80h80v-240h-80v240Zm200%2080v-80h160v-80h-80q-33%200-56.5-23.5T560-520v-80q0-33%2023.5-56.5T640-680h160v80H640v80h80q33%200%2056.5%2023.5T800-440v80q0%2033-23.5%2056.5T720-280H560Z"/></svg>');
+}
+
+.md-typeset .admonition.ios,
+.md-typeset details.ios {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .ios > .admonition-title,
+.md-typeset .ios > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .ios > .admonition-title::before,
+.md-typeset .ios > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--ios);
+          mask-image: var(--md-admonition-icon--ios);
+}
+
+/* Android */
+
+:root {
+  --md-admonition-icon--android: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="%23e8eaed"><path d="M40-240q9-107%2065.5-197T256-580l-74-128q-6-9-3-19t13-15q8-5%2018-2t16%2012l74%20128q86-36%20180-36t180%2036l74-128q6-9%2016-12t18%202q10%205%2013%2015t-3%2019l-74%20128q94%2053%20150.5%20143T920-240H40Zm240-110q21%200%2035.5-14.5T330-400q0-21-14.5-35.5T280-450q-21%200-35.5%2014.5T230-400q0%2021%2014.5%2035.5T280-350Zm400%200q21%200%2035.5-14.5T730-400q0-21-14.5-35.5T680-450q-21%200-35.5%2014.5T630-400q0%2021%2014.5%2035.5T680-350Z"/></svg>');
+}
+
+.md-typeset .admonition.android,
+.md-typeset details.android {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .android > .admonition-title,
+.md-typeset .android > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .android > .admonition-title::before,
+.md-typeset .android > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--android);
+          mask-image: var(--md-admonition-icon--android);
 }

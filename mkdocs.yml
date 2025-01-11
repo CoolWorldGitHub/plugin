@@ -1,17 +1,18 @@
 # Project information
-site_name: Plugins
-site_url: https://MrChickenX.github.io/plugin
+site_name: Docs
+site_url: https://MrChickenX.github.io/docs
 site_author: Alexander Kaufmann
 # site_description:
 
-repo_name: MrChickenX/plugin
-repo_url: https://github.com/MrChickenX/plugin
+repo_name: MrChickenX/docs
+repo_url: https://github.com/MrChickenX/docs
 
 copyright: Copyright &copy; 2025
 
 theme:
   name: material
   features:
+    - content.code.select
     - announce.dismiss
     # - content.action.edit
     # - content.action.view
@@ -64,7 +65,7 @@ theme:
     code: Roboto Mono
   icon:
     logo: fontawesome/solid/code
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
   favicon: assets/favicon.ico
 
 extra_css:
@@ -120,7 +121,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: MrChickenX
-      repo: plugin
+      repo: docs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -143,8 +144,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Lightpath:
-      - Config: lightpath/config.md
-      - Particles: lightpath/particles.md
-  - Welcome Messages:
-      - Config: welcomemessages/config.md
+  - RoboScore:
+      - Home: RoboScore/main.md
+      - Calculator: RoboScore/calculator.md
+      - Example: RoboScore/template-submerged.md
+
+# :material-lightbulb: Plugins
+
+#  <div class="plugin-buttons">
+#  <a href="/docs/lightpath/config/" class="md-button-big">
+#  <span class="icon material-icons">lightbulb</span>
+#  LightPath
+#  </a>
+#  </div>

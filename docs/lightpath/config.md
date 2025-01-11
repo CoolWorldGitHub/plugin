@@ -53,7 +53,7 @@ disappear-particle: SMOKE_NORMAL
 
 !!! info "Valid Particles"
 
-    See [Valid Particles](https://coolworldgithub.github.io/plugin/lightpath/particles/)
+    See [Valid Particles](/docs/lightpath/particles/)
 
 # Block Lifetime
 
